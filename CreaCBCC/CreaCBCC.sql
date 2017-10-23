@@ -10,6 +10,10 @@ drop table movie cascade constraints;
 drop table movie_director cascade constraints;
 drop table movie_genre cascade constraints;
 drop table movie_actor cascade constraints;
+drop table users cascade constraints;
+drop table review cascade constraints;
+drop table infos cascade constraints;
+drop table erreurs cascade constraints;
 
 create table artist (
   id   number(6) constraint artist$id$pos check(id >= 0),
@@ -75,4 +79,37 @@ create table movie_actor
   movie  number(6) constraint movie_actor$movie$fk references movie(id),
   actor number(6) constraint movie_actor$actor$fk references artist(id),
   constraint m_a$pk primary key (movie, actor)
+);
+
+create table users
+(
+	id number(6) constraint users$pk primary key,
+	nom varchar2(20) constraint users$nom$nn check (nom is not null),
+	prenom varchar2(20) constraint users$prenom$nn check (prenom is not null),
+	login varchar2(20) constraint users$login$nn check (login is not null),
+	password varchar2(20) constraint users$password$nn check (password is not null),
+	constraint users$login$un unique (login)
+);
+
+create table review
+(
+	movie number(6) constraint review$movie$fk references movie(id),
+	users number(6) constraint review$users$fk references users(id),
+	cote number(2) constraint review$cote$pos check (cote between 0 and 10),
+	avis varchar(200),
+	review_date date constraint review$review_date$nn check(release_date is not null)
+);
+
+create table infos
+(
+	id number(6) constraint infos$pk primary key,
+	message varchar2(200) constraint infos$message$nn check (message is not null),
+	info_date date
+);
+
+create table erreurs
+(
+	id number(6) constraint erreurs$pk primary key,
+	message varchar2(200) constraint erreur$message$nn check (message is not null),
+	erreur_date date
 );
