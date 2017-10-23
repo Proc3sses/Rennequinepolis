@@ -1,0 +1,219 @@
+_________________________________________
+
+Analyse sur Number et Varchar
+_________________________________________
+
+Colonne: CERTIFICATION
+minimum: 1 | maximum: 12 | moyenne: 2,292 | mediane: 2 | ecart type: 1,524
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 33712 | nombre de valeurs nulles: 322592
+nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 51 | 95eme quantile: 5
+
+Valeurs possibles:
+
+tt2058001
+None
+TV-14
+R
+NC-17
+Not Rated
+Unrated
+USA:Approved
+2009
+U
+TVMA
+Dark
+PG-13
+P
+TV-MA
+nr
+18
+undefined
+MA
+12
+TV-14 V
+ USA:R
+16
+UR
+Day to GO!
+PG
+NR
+Y
+M
+R18
+IMDB
+10
+Young
+X
+-
+A
+15
+x
+passed
+trippy
+TV-PG
+TV Movie
+adult
+G
+ 
+TV-G
+Exempt
+Approved
+XXX
+L
+n
+
+Colonne: POSTER_PATH
+minimum: 29 | maximum: 32 | moyenne: 31,972 | mediane: 32 | ecart type: ,168
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 243568 | nombre de valeurs nulles: 112736
+nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 240334 | 95eme quantile: 32
+
+Colonne: BUDGET
+minimum: 0 | maximum: 100000000000000 | moyenne: 281150388,591 | mediane: 0 | ecart type: 167528866414,517
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 356304 | nombre de valeurs nulles: 0
+nombre de valeurs égales à 0: 343283 | nombre de valeurs uniques: 1726 | 95eme quantile: 0
+
+Colonne: TAGLINE
+minimum: 1 | maximum: 2008 | moyenne: 46,531 | mediane: 38 | ecart type: 37,394
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 47715 | nombre de valeurs nulles: 308589
+nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 46200 | 95eme quantile: 107
+
+Colonne: ID
+minimum: 2 | maximum: 475316 | moyenne: 257942,382 | mediane: 280343,5 | ecart type: 139809,745
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 356304 | nombre de valeurs nulles: 0
+nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 356304 | 95eme quantile: 455730
+
+Colonne: TITLE
+minimum: 1 | maximum: 393 | moyenne: 19,762 | mediane: 17 | ecart type: 11,775
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 356304 | nombre de valeurs nulles: 0
+nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 322055 | 95eme quantile: 43
+
+Colonne: ORIGINAL_TITLE
+minimum: 1 | maximum: 393 | moyenne: 19,591 | mediane: 17 | ecart type: 11,867
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 356304 | nombre de valeurs nulles: 0
+nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 329159 | 95eme quantile: 43
+
+Colonne: RELEASE_DATE
+minimum: 1 | maximum: 393 | moyenne: 19,591 | mediane: 17 | ecart type: 11,867
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 356304 | nombre de valeurs nulles: 0
+nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 329159 | 95eme quantile: 43
+
+Colonne: STATUS
+minimum: 7 | maximum: 15 | moyenne: 8,035 | mediane: 8 | ecart type: ,498
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 350712 | nombre de valeurs nulles: 5592
+nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 6 | 95eme quantile: 8
+
+Valeurs possibles:
+
+Post Production
+Rumored
+Released
+In Production
+Planned
+Canceled
+
+Colonne: VOTE_AVERAGE
+minimum: 0 | maximum: 10 | moyenne: 1,331 | mediane: 0 | ecart type: 2,807
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 356304 | nombre de valeurs nulles: 0
+nombre de valeurs égales à 0: 285245 | nombre de valeurs uniques: 95 | 95eme quantile: 8
+
+Colonne: VOTE_COUNT
+minimum: 0 | maximum: 5814 | moyenne: 2,694 | mediane: 0 | ecart type: 53,087
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 356304 | nombre de valeurs nulles: 0
+nombre de valeurs égales à 0: 284984 | nombre de valeurs uniques: 755 | 95eme quantile: 2
+
+Colonne: RUNTIME
+minimum: 0 | maximum: 86400 | moyenne: 58,095 | mediane: 62 | ecart type: 211,477
+nombre de valeurs: 356304 | nombre de valeurs non nulles: 305494 | nombre de valeurs nulles: 50810
+nombre de valeurs égales à 0: 83796 | nombre de valeurs uniques: 626 | 95eme quantile: 135
+
+
+_________________________________________
+
+ACTEURS
+_________________________________________
+
+
+Colonne: id acteur
+maximum: 999999 | nombre de valeurs: 1456115 | nombre de valeurs nulles: 0 | nombre de valeurs uniques: 442722
+
+Colonne: nom acteur
+minimum: 1 | maximum: 283 | moyenne: 13,261 | mediane: 13 | ecart type: 3,11
+nombre de valeurs: 1456115 | nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 425524 | 95eme quantile: 19
+
+Colonne: role acteur
+minimum: 1 | maximum: 312 | moyenne: 11,115 | mediane: 10 | ecart type: 7,067
+nombre de valeurs: 1108309 | nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 580315 | 95eme quantile: 24
+
+_________________________________________
+
+REALISATEURS
+_________________________________________
+
+Colonne: id realisateur
+maximum: 999997 | nombre de valeurs: 270983 | nombre de valeurs nulles: 0 | nombre de valeurs uniques: 99162
+
+Colonne: nom realisateur
+minimum: 2 | maximum: 156 | moyenne: 13,66 | mediane: 13 | ecart type: 3,214
+nombre de valeurs: 270983 | nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 96053 | 95eme quantile: 19
+
+_________________________________________
+
+GENRES
+_________________________________________
+
+Colonne: id genre
+maximum: 99 | nombre de valeurs: 312059 | nombre de valeurs nulles: 0 | nombre de valeurs uniques: 39
+
+Colonne: nom genre
+minimum: 3 | maximum: 16 | moyenne: 6,871 | mediane: 6 | ecart type: 2,267
+nombre de valeurs: 312059 | nombre de valeurs égales à 0: 0 | nombre de valeurs uniques: 40 | 95eme quantile: 11
+
+Valeurs possibles:
+Music
+Disaster
+Holiday
+Suspense
+Romance
+Fan Film
+Family
+War
+Film Noir
+Neo-noir
+Short
+Indie
+Sports Film
+Sporting Event
+British
+Kids
+Reality
+Sci-Fi & Fantasy
+Foreign
+TV movie
+TV Movie (même ID que 'TV movie')
+Road Movie
+Adventure
+Fantasy
+Animation
+Drama
+Musical
+Horror
+Action
+Erotic
+Comedy
+History
+Western
+Thriller
+Crime
+Eastern
+Science Fiction
+Mystery
+Sport
+Documentary
+
+_________________________________________
+
+Release_Date
+_________________________________________
+MIN        MAX        QUANT95       NBRNULL  NBRVALIDE
+---------- ---------- ---------- ---------- ----------
+01/01/1700 01/01/2066 05/05/2016      41882     313554
