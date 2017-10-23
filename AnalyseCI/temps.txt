@@ -1,0 +1,6 @@
+AnalyseGenres: 38s
+AnalyseActeurs: 720s
+AnalyseRealisateurs: 43s
+AnalyseDistinctValues: 15s
+AnalyseCI: 127s
+AnalyseDates: 10s
