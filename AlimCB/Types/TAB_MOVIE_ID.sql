@@ -1,0 +1,1 @@
+create or replace TYPE TAB_MOVIE_ID AS VARRAY(200) OF NUMBER(6);
